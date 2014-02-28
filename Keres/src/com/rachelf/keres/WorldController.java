@@ -2,7 +2,6 @@ package com.rachelf.keres;
 
 import java.util.HashMap;
 
-import com.badlogic.gdx.maps.Map;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.utils.Array;
 import com.rachelf.keres.entities.Block;
@@ -154,8 +153,7 @@ public class WorldController {
 	    intersection.width = Math.min(rectangle1.x + rectangle1.width, rectangle2.x + rectangle2.width) - intersection.x;
 	    intersection.y = Math.max(rectangle1.y, rectangle2.y);
 	    intersection.height = Math.min(rectangle1.y + rectangle1.height, rectangle2.y + rectangle2.height) - intersection.y;
-	    
+	  
 	    return (intersection.width > intersection.height)? intersection.width : intersection.height;
 	}
-
 }

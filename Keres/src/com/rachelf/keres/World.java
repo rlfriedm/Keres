@@ -22,15 +22,6 @@ public class World {
 		level = new Level();
 		blocks = level.getBlocks();
 		player = level.getPlayer();
-
-		level = new Level();
-		blocks = level.getBlocks();
-		player = level.getPlayer();
-
-		player = new Player(new Vector2(8, 2));
-		level = new Level();
-		blocks = level.getBlocks();
-
 	}
 
 
