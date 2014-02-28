@@ -78,34 +78,32 @@ public class Level {
 	//}
 	
 	private void loadDemoLevel() {
-        width = 30;
-        height = 7;
-        blocks = new Array<Block>();
+		width = 30;
+		height = 7;
+		blocks = new Array<Block>();
 
-        for (int col = 0; col < width - 10; col++) {
-               	blocks.add(new Block((new Vector2(col, 0))));
-               	blocks.add(new Block((new Vector2(col, 6))));
-                if (col > 2) {
-                   	blocks.add(new Block((new Vector2(col, 1))));
+		for (int col = 0; col < width - 10; col++) {
+			blocks.add(new Block((new Vector2(col, 0))));
+			blocks.add(new Block((new Vector2(col, 6))));
+			if (col > 2) {
+				blocks.add(new Block((new Vector2(col, 1))));
 
-                }
+			}
         }
-        blocks.add(new Block(new Vector2(0, 1)));
-        blocks.add(new Block(new Vector2(0, 2)));
-        blocks.add(new Block(new Vector2(0, 3)));
-        blocks.add(new Block(new Vector2(0, 4)));
-        blocks.add(new Block(new Vector2(0, 5)));
-        
-        blocks.add(new Block(new Vector2(6, 3)));
-        blocks.add(new Block(new Vector2(6, 4)));
-        blocks.add(new Block(new Vector2(6, 5)));
-        
-        blocks.add(new Block(new Vector2(21, 3)));
-        blocks.add(new Block(new Vector2(22, 4)));
-        blocks.add(new Block(new Vector2(23, 5)));
-        
-        
-        blocks.add(new Block(new Vector2(11, -2)));
+		blocks.add(new Block(new Vector2(0, 1)));
+		blocks.add(new Block(new Vector2(0, 2)));
+		blocks.add(new Block(new Vector2(0, 3)));
+		blocks.add(new Block(new Vector2(0, 4)));
+	    blocks.add(new Block(new Vector2(0, 5)));
+	   
+	    blocks.add(new Block(new Vector2(6, 3)));
+	    blocks.add(new Block(new Vector2(6, 4)));
+	    blocks.add(new Block(new Vector2(6, 5)));
+	    
+	    blocks.add(new Block(new Vector2(21, 3)));
+	    blocks.add(new Block(new Vector2(22, 4)));
+	    blocks.add(new Block(new Vector2(23, 5)));
+	    blocks.add(new Block(new Vector2(11, -2)));
 
 	}
 
