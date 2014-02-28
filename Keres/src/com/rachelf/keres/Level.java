@@ -29,9 +29,9 @@ public class Level {
 	}
 	
 	public void generateLevel() {
-        width = levelData.getWidth();
-        height = levelData.getHeight();
-        System.out.println("W: " + width + "H: " + height);
+		width = levelData.getWidth();
+		height = levelData.getHeight();
+		System.out.println("W: " + width + "H: " + height);
 		for (int y = 0; y < height; y++) {
 			for (int x = 0; x < width; x++) {
 				int invertY = Math.abs(y - height) - 1;
