@@ -73,10 +73,6 @@ public class Level {
 		this.blocks = blocks;
 	}
 	
-	//public Block get(int x, int y) {
-	//	return blocks[x][y];
-	//}
-	
 	private void loadDemoLevel() {
 		width = 30;
 		height = 7;
