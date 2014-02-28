@@ -87,7 +87,6 @@ public class Level {
 			blocks.add(new Block((new Vector2(col, 6))));
 			if (col > 2) {
 				blocks.add(new Block((new Vector2(col, 1))));
-
 			}
 		}
 		
