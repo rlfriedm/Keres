@@ -103,8 +103,7 @@ public class Level {
 		blocks.add(new Block(new Vector2(21, 3)));
 		blocks.add(new Block(new Vector2(22, 4)));
 		blocks.add(new Block(new Vector2(23, 5)));
-		blocks.add(new Block(new Vector2(11, -2)));
-
+		blocks.add(new Block(new Vector2(11, -2)))
 	}
 
 	public Player getPlayer() {
