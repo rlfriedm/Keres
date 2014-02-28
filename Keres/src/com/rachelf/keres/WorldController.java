@@ -149,13 +149,13 @@ public class WorldController {
 	
 	static public float intersect(Rectangle rectangle1, Rectangle rectangle2) {
 		Rectangle intersection = new Rectangle();
-        intersection.x = Math.max(rectangle1.x, rectangle2.x);
-        intersection.width = Math.min(rectangle1.x + rectangle1.width, rectangle2.x + rectangle2.width) - intersection.x;
-        intersection.y = Math.max(rectangle1.y, rectangle2.y);
-        intersection.height = Math.min(rectangle1.y + rectangle1.height, rectangle2.y + rectangle2.height) - intersection.y;
-        
-        return (intersection.width > intersection.height)? intersection.width : intersection.height;
-
+		
+	    intersection.x = Math.max(rectangle1.x, rectangle2.x);
+	    intersection.width = Math.min(rectangle1.x + rectangle1.width, rectangle2.x + rectangle2.width) - intersection.x;
+	    intersection.y = Math.max(rectangle1.y, rectangle2.y);
+	    intersection.height = Math.min(rectangle1.y + rectangle1.height, rectangle2.y + rectangle2.height) - intersection.y;
+	    
+	    return (intersection.width > intersection.height)? intersection.width : intersection.height;
 	}
 
 }
