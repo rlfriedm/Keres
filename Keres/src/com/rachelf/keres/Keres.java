@@ -1,28 +1,21 @@
 package com.rachelf.keres;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-=======
 import com.badlogic.gdx.ApplicationListener;
->>>>>>> Added image based level editing system
+
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-<<<<<<< HEAD
-=======
+
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
->>>>>>> parent of 3f81881... Revert "Initial commit"
->>>>>>> Added image based level editing system
 import com.rachelf.keres.screens.GameScreen;
 import com.rachelf.keres.screens.MainMenuScreen;
 import com.rachelf.keres.screens.SplashScreen;

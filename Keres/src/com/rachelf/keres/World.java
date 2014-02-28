@@ -19,21 +19,18 @@ public class World {
 	
 	
 	private void createWorld() {
-<<<<<<< HEAD
 		level = new Level();
 		blocks = level.getBlocks();
 		player = level.getPlayer();
-=======
-<<<<<<< HEAD
+
 		level = new Level();
 		blocks = level.getBlocks();
 		player = level.getPlayer();
-=======
+
 		player = new Player(new Vector2(8, 2));
 		level = new Level();
 		blocks = level.getBlocks();
->>>>>>> parent of 3f81881... Revert "Initial commit"
->>>>>>> Added image based level editing system
+
 	}
 
 

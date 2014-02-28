@@ -59,16 +59,6 @@ public class WorldRenderer {
 		this.debug = false;
 		batch = new SpriteBatch();
 		loadTextures();
-<<<<<<< HEAD
-	//	map = new TmxMapLoader().load("images/test.tmx");
-=======
-<<<<<<< HEAD
-	//	map = new TmxMapLoader().load("images/test.tmx");
-=======
-	//	map = new TmxMapLoader().load("images/map1.tmx");
->>>>>>> parent of 3f81881... Revert "Initial commit"
->>>>>>> Added image based level editing system
-	//	renderer = new OrthogonalTiledMapRenderer(map);
 	}
 	
 	public void resize(int w, int h) {
