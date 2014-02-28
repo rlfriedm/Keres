@@ -89,7 +89,8 @@ public class Level {
 				blocks.add(new Block((new Vector2(col, 1))));
 
 			}
-        }
+		}
+		
 		blocks.add(new Block(new Vector2(0, 1)));
 		blocks.add(new Block(new Vector2(0, 2)));
 		blocks.add(new Block(new Vector2(0, 3)));
