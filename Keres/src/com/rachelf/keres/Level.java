@@ -94,16 +94,16 @@ public class Level {
 		blocks.add(new Block(new Vector2(0, 2)));
 		blocks.add(new Block(new Vector2(0, 3)));
 		blocks.add(new Block(new Vector2(0, 4)));
-	    blocks.add(new Block(new Vector2(0, 5)));
+		blocks.add(new Block(new Vector2(0, 5)));
 	   
-	    blocks.add(new Block(new Vector2(6, 3)));
-	    blocks.add(new Block(new Vector2(6, 4)));
-	    blocks.add(new Block(new Vector2(6, 5)));
+		blocks.add(new Block(new Vector2(6, 3)));
+		blocks.add(new Block(new Vector2(6, 4)));
+		blocks.add(new Block(new Vector2(6, 5)));
 	    
-	    blocks.add(new Block(new Vector2(21, 3)));
-	    blocks.add(new Block(new Vector2(22, 4)));
-	    blocks.add(new Block(new Vector2(23, 5)));
-	    blocks.add(new Block(new Vector2(11, -2)));
+		blocks.add(new Block(new Vector2(21, 3)));
+		blocks.add(new Block(new Vector2(22, 4)));
+		blocks.add(new Block(new Vector2(23, 5)));
+		blocks.add(new Block(new Vector2(11, -2)));
 
 	}
 
