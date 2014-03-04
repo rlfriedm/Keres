@@ -87,7 +87,10 @@ public class Player {
 		// NOTE: figure out why legs go into block, could be order of checking for collisions/updating position
 		// position += velocity above collisions before changing the velocity
 		acceleration.y = gravity;
-
+		
+		if (velocity.y < 0) 
+			onGround = false;
+		
 		if (delta > .1f) {  // make sure time passed isn't great enough to cause clipping issues when window moved
 			delta = .02f;
 		}
@@ -136,10 +139,9 @@ public class Player {
 	public void processCollisions(Array<Block> collidedBlocks) {
 		for (Block block : collidedBlocks) {
 			
-			//System.out.println(count + " " + block.getOverlap());
 			if (velocity.y <= 0 && distance(0, bounds.y, 0, block.bounds.y + block.bounds.height) < bounds.height / 2) {
 				if ((distance(bounds.x + bounds.width, 0, block.bounds.x, 0) < .1 || distance(bounds.x, 0, block.bounds.x + block.bounds.width, 0) < .05) && !onGround && collidedBlocks.size > 1) {
-					
+
 					if (velocity.x > 0  && block.bounds.x > bounds.x) 
 						position.x = block.bounds.x - bounds.width;
 					
@@ -147,6 +149,7 @@ public class Player {
 						position.x = block.bounds.x + block.bounds.width;
 					break;
 				}
+				
 				velocity.y = 0;
 				position.y = block.bounds.height + block.bounds.y;
 				onGround = true;
